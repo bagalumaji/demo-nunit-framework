@@ -1,6 +1,6 @@
 ﻿namespace demo_nunit_framework
 {
-
+    //to run - dotnet test --filter Category=Smoke
     [TestFixture]
     public class RepeatCategoryTests
     {
