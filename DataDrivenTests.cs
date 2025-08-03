@@ -14,6 +14,7 @@
 
         [TestCase(1, 2, 3)]
         [TestCase(4, 5, 9)]
+        [Timeout(1000)]
         public void DemoTest3(int a, int b, int c)
         {
             Console.WriteLine("first Value : {0}", a);
