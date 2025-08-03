@@ -1,10 +1,10 @@
 namespace demo_nunit_framework
 {
-    public class DemoTests
+    public class DemoTest
     {
        
         [Test]
-        public void DemoTest()
+        public void SampleTest()
         {
             Console.WriteLine("demo test");
         }
