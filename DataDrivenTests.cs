@@ -12,6 +12,15 @@
             Console.WriteLine("third value : {0}", c);
         }
 
+        [TestCase(1, 2, 3)]
+        [TestCase(4, 5, 9)]
+        public void DemoTest3(int a, int b, int c)
+        {
+            Console.WriteLine("first Value : {0}", a);
+            Console.WriteLine("seconds value : {0}", b);
+            Console.WriteLine("third value : {0}", c);
+        }
+
         [TestCaseSource(nameof(GetTestData))]
         public void DemoTest2(string a, string b, string c)
         {
