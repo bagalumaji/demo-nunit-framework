@@ -34,5 +34,14 @@
             new object[] { "A","B","C"},
             new object[] { "D","E","F"}
         };
+
+
+        [TestCaseSource(typeof(TestDataProvider),nameof(TestDataProvider.GetTestData))]
+        public void DataFromExternalClassTest(string a, string b, string c)
+        {
+            Console.WriteLine("Value : {0}", a);
+            Console.WriteLine("value : {0}", b);
+            Console.WriteLine("value : {0}", c);
+        }
     }
 }
